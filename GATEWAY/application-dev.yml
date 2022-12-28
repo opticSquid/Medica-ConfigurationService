@@ -1,5 +1,10 @@
-spring:
-  profiles:
-    active: dev
-  application:
-    name: GATEWAY-DEV
+logging:
+  level:
+    web: debug
+server:
+  port: 8088
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
