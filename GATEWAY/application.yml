@@ -1,2 +1,5 @@
-application:
-  name: gateway
+spring:
+  profiles:
+    active: dev
+  application:
+    name: GATEWAY-MAIN
